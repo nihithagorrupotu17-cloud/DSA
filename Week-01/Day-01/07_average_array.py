@@ -1,4 +1,4 @@
-arr = [10,35,76,23,54,67,89,12,45]
+arr = list(map(int, input("Enter array elements: ").split()))
 total = 0
 for i in range(len(arr)):
     total+=arr[i]
