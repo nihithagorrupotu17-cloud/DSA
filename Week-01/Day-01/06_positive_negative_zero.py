@@ -1,4 +1,4 @@
-arr = [10, -5, 0, 7, -2, 0, 8, -9]
+arr = list(map(int, input("Enter array elements: ").split()))
 count_positive = 0
 count_negative = 0
 count_zero = 0
